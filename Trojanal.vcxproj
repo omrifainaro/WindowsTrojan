@@ -139,7 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="escapi.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="screenshot.cpp" />
+    <ClCompile Include="Socket.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Webcam.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="escapi.h" />
+    <ClInclude Include="screenshot.h" />
+    <ClInclude Include="Socket.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Webcam.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
